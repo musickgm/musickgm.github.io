@@ -306,7 +306,24 @@ main {
   min-width: 259px;
 }
 
+/* unvisited link */
+a:link {color: var(--orange-yellow-crayola);
+}
 
+/* visited link */
+a:visited {
+  color: var(--vegas-gold);
+}
+
+/* mouse over link */
+a:hover {
+  color: var(--bittersweet-shimmer);
+}
+
+/* selected link */
+a:active {
+  color: var(--onyx);
+}
 
 
 
@@ -827,7 +844,10 @@ main {
   color: var(--light-gray);
   font-weight: var(--fw-300);
   line-height: 1.6;
+
 }
+
+
 
 
 /**
