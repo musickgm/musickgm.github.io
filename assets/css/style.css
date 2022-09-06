@@ -1214,6 +1214,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   box-shadow: var(--shadow-3);
   z-index: 1;
   transition: var(--transition-1);
+  float: left;
 }
 
 .form-btn::before {
