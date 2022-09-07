@@ -71,7 +71,7 @@
     to bottom right, 
     var(--orange-yellow-crayola) 0%, 
     /* var(--orange-yellow-crayola) 0%,  */ 
-    hsla(36, 100%, 69%, 0) 50%
+    hsla(193, 13%, 69%, 0) 50%
     /*hsla(36, 100%, 69%, 0) 50% */ 
   );
   --bg-gradient-yellow-2: linear-gradient(
@@ -80,7 +80,7 @@
     /* hsla(45, 100%, 71%, 0.251) 0%, */ 
     hsla(35, 100%, 68%, 0) 59.86%
     /*hsla(35, 100%, 68%, 0) 59.86% */ 
-  ), hsl(240, 2%, 13%);
+  ), hsl(193, 14%, 19%);
   /* hsl(240, 2%, 13%);*/ 
   --border-gradient-onyx: linear-gradient(
     to bottom right, 
