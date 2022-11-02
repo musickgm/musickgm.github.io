@@ -160,7 +160,7 @@
 
 a { text-decoration: none; }
 
-li { list-style: none; }
+li { list-style: none; } 
 
 img, ion-icon, a, button, time, span { display: block; }
 
@@ -879,7 +879,6 @@ a:active {
   color: var(--light-gray);
   font-weight: var(--fw-300);
   line-height: 1.6;
-
 }
 
 
