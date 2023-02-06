@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geoff Musick</title>
+  
+    <!--
+      - favicon
+    -->
+    <link rel="shortcut icon" href="../assets/images/logo-geoff.png" type="image/x-icon">
+  
+    <!--
+      - custom css link
+    -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+  
+    <!--
+      - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  </head>
+
+<body>
+    <main>
+        <!--
+            - #SIDEBAR
+        -->
+
+        <aside class="sidebar" data-sidebar>
+
+            <div class="sidebar-info">
+    
+            <figure class="avatar-box">
+                <img src="../assets/images/geoff_profile_boston_alpha.png" alt="Geoff Musick" width="80">
+            </figure>
+    
+            <div class="info-content">
+                <h1 class="name" title="Geoff Musick">Geoff Musick</h1>
+    
+                <p class="title">Research, Development, <br> and Design</p>
+            </div>
+    
+            <button class="info_more-btn" data-sidebar-btn>
+                <span>Show Contacts</span>
+    
+                <ion-icon name="chevron-down"></ion-icon>
+            </button>
+    
+            </div>
+    
+            <div class="sidebar-info_more">
+    
+            <div class="separator"></div>
+    
+            <ul class="contacts-list">
+    
+                <li class="contact-item">
+    
+                <div class="icon-box">
+                    <ion-icon name="mail-outline"></ion-icon>
+                </div>
+    
+                <div class="contact-info">
+                    <p class="contact-title">Email</p>
+    
+                    <a href="mailto:musick.geoff@gmail.com" class="contact-link">musick.geoff@gmail.com</a>
+                </div>
+    
+                </li>
+                <!--
+                <li class="contact-item">
+    
+                <div class="icon-box">
+                    <ion-icon name="phone-portrait-outline"></ion-icon>
+                </div>
+    
+                <div class="contact-info">
+                    <p class="contact-title">Phone</p>
+    
+                    <a href="tel:+16154800656" class="contact-link">+1 (615) 480-0656</a>
+                </div>
+    
+                </li>
+    
+                
+                <li class="contact-item">
+    
+                <div class="icon-box">
+                    <ion-icon name="calendar-outline"></ion-icon>
+                </div>
+    
+                <div class="contact-info">
+                    <p class="contact-title">Birthday</p>
+    
+                    <time datetime="1990-04-16">April 16, 1990</time>
+                </div>
+    
+                </li>-->
+    
+                <li class="contact-item">
+    
+                <div class="icon-box">
+                    <ion-icon name="location-outline"></ion-icon>
+                </div>
+    
+                <div class="contact-info">
+                    <p class="contact-title">Location</p>
+    
+                    <address>Colorado Springs, Colorado, USA</address>
+                </div>
+    
+                </li>
+    
+            </ul>
+    
+            <div class="separator"></div>
+    
+            <ul class="social-list">
+                
+                <li class="social-item">
+                <a href="https://www.linkedin.com/in/geoff-musick/" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+                </li>
+            
+                
+            <li class="social-item">
+                <a href="https://github.com/musickgm" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <ion-icon name="logo-github"></ion-icon>
+                </a>
+                </li>
+                
+                <!--
+                <li class="social-item">
+                <a href="https://www.facebook.com/musickgm" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+                </li>
+                -->
+    
+                <!--
+                <li class="social-item">
+                <a href="https://twitter.com/GeoffMusick" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+                </li>
+                -->
+    
+                <li class="social-item">
+                <a href="https://scholar.google.com/citations?user=qq-8OKMAAAAJ&hl=en" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <ion-icon name="school-outline"></ion-icon>
+                </a>
+                </li>
+    
+                <!--
+                <li class="social-item">
+                <a href="https://www.instagram.com/geoffmusick/" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                </li>
+                -->
+            </ul>
+    
+            </div>
+    
+        </aside>
+
+        <div class="main-content">
+
+
+            <!--
+                - #NAVBAR
+            -->
+
+            <nav class="navbar">
+
+                <ul class="navbar-list">
+
+                <li class="navbar-item">
+                    <button class="navbar-link" onclick="window.location.href = '../index.html';">About</button>
+                </li>
+                
+                <!--
+                <li class="navbar-item">
+                    <button class="navbar-link" onclick="window.location.href = 'html/resume.html';">Resume</button>
+                </li>
+                -->
+            
+                <li class="navbar-item">
+                    <button class="navbar-link active" onclick="window.location.href = 'research.html';">Research</button>
+                </li>
+            
+                <li class="navbar-item">
+                    <button class="navbar-link" onclick="window.location.href = 'development.html';">Development</button>
+                </li>
+            
+                <li class="navbar-item">
+                    <button class="navbar-link" onclick="window.location.href = 'design.html';">Design</button>
+                </li>
+                
+                <!--
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Resume</button>
+                </li>
+                
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Research</button>
+                </li>
+            
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Development</button>
+                </li>
+            
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Design</button>
+                </li>
+                -->
+            
+            
+            <!--
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Contact</button>
+                </li>
+            -->
+                </ul>
+            
+            </nav>
+
+            <!--
+                - #BLOG [Research]
+            -->
+
+            <article class="blog active" data-page="research">
+
+                <header>
+                <h2 class="h2 article-title">Research</h2>
+                </header>
+                <section class="about-text">
+                <p>
+                    For more information, visit my <a href="https://scholar.google.com/citations?user=qq-8OKMAAAAJ&hl=en" style="display: inline"
+                    target="_blank" rel="noopener noreferrer">Google Scholar</a> or <a href="https://www.researchgate.net/profile/Geoff-Musick" style="display: inline"
+                    target="_blank" rel="noopener noreferrer">Research Gate</a> profile.
+                </p>
+
+            </section>
+
+                <section class="blog-posts">
+
+                <ul class="blog-posts-list">
+
+                    <li class="blog-post-item">
+                        <a href="https://scholarspace.manoa.hawaii.edu/items/70c9d3da-1a49-417b-8842-6b89c70e4f57/full" 
+                        target="_blank" rel="noopener noreferrer">
+    
+                            <figure class="blog-banner-box">
+                            <img src="../assets/images/publication-selective.png" alt="selective" loading="lazy">
+                            </figure>
+    
+                            <div class="blog-content">
+    
+                            <div class="blog-meta">
+                                <p class="blog-category">CSCW</p>
+    
+                                <span class="dot"></span>
+    
+                                <time datetime="2021-10-06">Nov 11, 2022</time>
+                            </div>
+    
+                            <h3 class="h3 blog-item-title">Selective Sharing is Caring: Toward the Design of a Collaborative Tool to Facilitate Team Sharing</h3>
+    
+                            <p class="blog-text">
+                                &#x2022; Goal: Better understand user perceptions of sharing personal information on temporary teams.<br>
+                                &#x2022; Methods: qualitative surveys (content analysis and thematic analysis), field study, and quantiative surveys.<br>
+                                &#x2022; Findings and Design Recommendations: 1) Users perceived personality and conflict management style assessments 
+                                to be accurate and sharing these assessments to be helpful, but had mixed perceptions regarding the appropriateness 
+                                of sharing; 2) Users of the collaborative tool had higher perceptions of sharing in terms of helpfulness and 
+                                appropriateness; and 3) User feedback highlighted the need for tools to selectively share less data with more context to 
+                                improve appropriateness and helpfulness while reducing the amount of time to read.<br>
+                            </p>
+    
+                            </div>
+    
+                        </a>
+                        </li>
+
+                    <li class="blog-post-item">
+                    <a href="https://tigerprints.clemson.edu/cgi/viewcontent.cgi?article=4270&context=all_dissertations" 
+                        target="_blank" rel="noopener noreferrer">
+                    <!--
+                        <a  style="display: inline"
+                            target="_blank" rel="noopener noreferrer">
+                        href= "https://tigerprints.clemson.edu/cgi/viewcontent.cgi?article=4270&context=all_dissertations"
+                    -->
+
+                        <figure class="blog-banner-box">
+                        <img src="../assets/images/publication-diss.png" alt="diss" loading="lazy">
+                        </figure>
+
+                        <div class="blog-content">
+
+                        <div class="blog-meta">
+                            <p class="blog-category">Clemson University Dissertation</p>
+
+                            <span class="dot"></span>
+
+                            <time datetime="2021-10-06">Nov 14, 2022</time>
+                        </div>
+
+                        <h3 class="h3 blog-item-title">Developing and Facilitating Temporary Team Mental Models Through an Information-Sharing Recommender System</h3>
+
+                        <p class="blog-text">
+                            &#x2022; Goal: Create a foundation and thorough understanding of how recommender system technology
+                            can be used to promote teammate TMMs through information sharing while limiting privacy concerns.<br>
+                            &#x2022; Methods, 4 Studies: (1) qualitative surveys (content analysis and thematic analysis) and field study; 
+                            (2) semi-structured interviews, surveys, A/B testing, and field study; 
+                            (3) analytics and survey; and (4) A/B testing, analytics, and survey <br>
+                            &#x2022; Findings and Design Recommendations: (1) recommendations for the type of information to use; 
+                            (2) recommendations on presentation - avoid using anonymity and use better explanations; 
+                            (3) provided directions for user-tailored privacy and factors to consider when creating that model; and
+                            (4) recommendations for the type of explanation to provide and when to provide it to promote disclosure, reduce privacy concerns, and increase trust and satisfaction.<br>
+                        </p>
+
+                        </div>
+
+                    </a>
+                    </li>
+
+
+                    <li class="blog-post-item">
+                    <a href="https://doi.org/10.1145/3555099" 
+                    target="_blank" rel="noopener noreferrer">
+
+                        <figure class="blog-banner-box">
+                        <img src="../assets/images/publication-see.png" alt="see" loading="lazy">
+                        </figure>
+
+                        <div class="blog-content">
+
+                        <div class="blog-meta">
+                            <p class="blog-category">CSCW</p>
+
+                            <span class="dot"></span>
+
+                            <time datetime="2021-10-06">Nov 11, 2022</time>
+                        </div>
+
+                        <h3 class="h3 blog-item-title">I See You: Examining the Role of Spatial Information in Human-Agent Teams</h3>
+
+                        <p class="blog-text">
+                            &#x2022; Goal: Determine the role of spatial awareness in team cognition development for different human-agent and human-human team compositions.<br>
+                            &#x2022; Methods: 2x3 factorial design completed between subjects. Remote user study with quantitative and qualitative measures (analytics, A/B testing, surveys).<br>
+                            &#x2022; Findings and Design Recommendations: Human-agent teams had better team mental model similarity when spatial awareness was high
+                            rather than low, while human-only teams experienced the reverse trend. High spatial awareness jump-started team cognition development, fostered more accurate shared mental
+                            models, enhanced the explainability of the agent, and helped the iterative development of team cognition over time.<br>
+                        </p>
+
+                        </div>
+
+                    </a>
+                    </li>
+
+                    <li class="blog-post-item">
+                    <a href="https://dl.acm.org/doi/pdf/10.1145/3474678?casa_token=K6xLPRm7csoAAAAA:677lJ-UvFYnD6yTY-Wqki2rXZvhqx90np1s7SKGdI5d9PvJyWX3eeaMY1jMTGYvmJFBunnzErF_BDQ" 
+                    target="_blank" rel="noopener noreferrer">
+
+                        <figure class="blog-banner-box">
+                        <img src="../assets/images/publication-gaming.png" alt="gaming" loading="lazy">
+                        </figure>
+
+                        <div class="blog-content">
+
+                        <div class="blog-meta">
+                            <p class="blog-category">CHI PLAY</p>
+
+                            <span class="dot"></span>
+
+                            <time datetime="2021-10-06">Oct 6, 2021</time>
+                        </div>
+
+                        <h3 class="h3 blog-item-title">Gaming as Family Time: Digital Game Co-play in Modern Parent-Child Relationships</h3>
+
+                        <p class="blog-text">
+                            &#x2022; Goal: Determine how co-playing digital games affords and impacts parent-child relationships.<br>
+                            &#x2022; Methods: Remote semi-structured interviews with parents followed by thematic analysis.<br>
+                            &#x2022; Findings and Design Recommendations: (1) the importance of encouraging conversations both in and after gameplay and (2) promoting co-viewing to strengthen
+                            connections through shared interests.<br>
+                        </p>
+
+                        </div>
+
+                    </a>
+                    </li>
+
+                    <li class="blog-post-item">
+                    <a href="https://www.sciencedirect.com/science/article/pii/S0747563221001758?casa_token=7E0hrj4lmDwAAAAA:zWgVAyNOaQi22q_6NxH8sdED9VMbLJk1AwKQ9XMjwIeuruqsHSD8un7pI6EsHI_L6F765jvrHYo" 
+                    target="_blank" rel="noopener noreferrer">
+
+                        <figure class="blog-banner-box">
+                        <img src="../assets/images/publication-happens.png" alt="what happens" loading="lazy">
+                        </figure>
+
+                        <div class="blog-content">
+
+                        <div class="blog-meta">
+                            <p class="blog-category">Computers in Human Behavior</p>
+
+                            <span class="dot"></span>
+
+                            <time datetime="2021-09-01">Sept 1, 2021</time>
+                        </div>
+
+                        <h3 class="h3 blog-item-title">What Happens When Humans Believe Their Teammate is an AI? An Investigation into Humans Teaming with Autonomy</h3>
+
+                        <p class="blog-text">
+                            &#x2022; Goal: Understand how the perceived composition of a team (how many humans and how many agents on the team) affects sentiments toward teammates, 
+                            team process, cognitive states, and the emergence of a system of team cogntiion.<br>
+                            &#x2022; Methods: User study that involved 46 teams working together on an online platform with a "Wizard of Oz" methodology followed by semi-structured focus group interviews.<br>
+                            &#x2022; Findings and Design Recommendations: Multi-agent human-agent teams were impaired because of some social cognitive processes involved in the perception of
+                            autonomous agent as teammates. This study advanced models of team development and the emergence of team cognition.<br>                   
+                        </p>
+
+                        </div>
+
+                    </a>
+                    </li>
+
+                    <li class="blog-post-item">
+                    <a href="https://dl.acm.org/doi/pdf/10.1145/3449123?casa_token=50pVOPOe6isAAAAA:deA0eCLkcmqddo5rnvsr3OWowhVVWhAHF5ZGqk2qryHhV34s1OwpR6uHzxZZLTviA0x21-aQMOFSuA" 
+                    target="_blank" rel="noopener noreferrer">
+
+                        <figure class="blog-banner-box">
+                        <img src="../assets/images/publication-leveling.png" alt="leveling" loading="lazy">
+                        </figure>
+
+                        <div class="blog-content">
+
+                        <div class="blog-meta">
+                            <p class="blog-category">CSCW</p>
+
+                            <span class="dot"></span>
+
+                            <time datetime="2021-04-22">Apr 22, 2021</time>
+                        </div>
+
+                        <h3 class="h3 blog-item-title">Leveling Up Teamwork in Esports: Understanding Team Cognition in a Dynamic Virtual Environment</h3>
+
+                        <p class="blog-text">
+                            &#x2022; Goal: Understand how team cognition is perceived, defined, developed, and facilitated in an esports teaming environment.<br>
+                            &#x2022; Methods: Remote and in-person semi-structured interviews with esports players followed by thematic analysis.<br>
+                            &#x2022; Design Recommendations: (1) use pre-game lobbies and "matchmaking" to establish teammate understanding; 
+                            (2) use focused communication to avoid distractions within chaotic environments; and
+                            (3) leverage review tools to assist teammates in developing a shared mental model.<br>    
+                        </p>
+
+                        </div>
+
+                    </a>
+                    </li>
+
+                    <li class="blog-post-item">
+                    <a href="https://dl.acm.org/doi/pdf/10.1145/3432945?casa_token=IrPOakWKLvQAAAAA:N-hOFFpmZd8fZpF6Ytclplr15SNnKK7MWLbvwdNUDDdZz7JOCM91ZAJ40ECavQIOw-oizvzFrcv-Sw" 
+                    target="_blank" rel="noopener noreferrer">
+
+                        <figure class="blog-banner-box">
+                        <img src="../assets/images/publication-ideal.png" alt="ideal human" loading="lazy">
+                        </figure>
+
+                        <div class="blog-content">
+
+                        <div class="blog-meta">
+                            <p class="blog-category">CSCW</p>
+
+                            <span class="dot"></span>
+
+                            <time datetime="2021-01-05">Jan 5, 2021</time>
+                        </div>
+
+                        <h3 class="h3 blog-item-title">"An Ideal Human": Expectations of AI Teammates in Human-AI Teaming</h3>
+
+                        <p class="blog-text">
+                            &#x2022; Goal: Understand how users perceive and what they expect from AI teammates in human-AI teamming.<br>
+                            &#x2022; Methods: Remote and in-person semi-structured interviews with esports players, thematic analysis, and surveys.<br>
+                            &#x2022; Findings and Design Recommendations: (1) AI should be taken into account as a subject in collaborative-activity design; 
+                            (2) designers may take advantage of AI's innate abilities in human-AI teaming design when considering aspects such as roles, tasks, or goals; and 
+                            (3) designers should create special team activities or mechanics to facilitate the development of a mutual understanding between AIs and human teammates.<br>  
+                        </p>
+
+                        </div>
+
+                    </a>
+                    </li>
+
+                    <li class="blog-post-item">
+                    <a href="https://journals.sagepub.com/doi/pdf/10.1177/1071181320641315?casa_token=pMTIwxmVmnkAAAAA:rbjK2zw34iHyjM2w0vb25iQqmOKaqzcG_nLE8S_CSeBVWMgUvTt_7SiWeMiLIdJBbZXKWMV8nmUk0Q" 
+                    target="_blank" rel="noopener noreferrer">
+
+                        <figure class="blog-banner-box">
+                        <img src="../assets/images/publication-instruction.png" alt="differentiated instruction" loading="lazy">
+                        </figure>
+
+                        <div class="blog-content">
+
+                        <div class="blog-meta">
+                            <p class="blog-category">Proceedings of HFES</p>
+
+                            <span class="dot"></span>
+
+                            <time datetime="2020-12">Dec, 2020</time>
+                        </div>
+
+                        <h3 class="h3 blog-item-title">Differentiated Instruction further Realized through Teacher-Agent Teaming</h3>
+
+                        <p class="blog-text">
+                            &#x2022; Goal: Create a conceptual model for how differentiated instruction could be supported in teacher-agent teaming.<br>
+                            &#x2022; Methods: Literature review to create a conceptual model.<br>
+                            &#x2022; Result: Conceptual model to support the design of agents for teacher-agent teaming for differentiated instruction.<br> 
+                        </p>
+
+                        </div>
+
+                    </a>
+                    </li>
+
+
+                    <li class="blog-post-item">
+                    <a href="https://link.springer.com/chapter/10.1007/978-3-030-64556-4_52" 
+                    target="_blank" rel="noopener noreferrer">
+
+                        <figure class="blog-banner-box">
+                        <img src="../assets/images/publication-fidelity.png" alt="display fidelity" loading="lazy">
+                        </figure>
+
+                        <div class="blog-content">
+
+                        <div class="blog-meta">
+                            <p class="blog-category">ISVC</p>
+
+                            <span class="dot"></span>
+
+                            <time datetime="2020-10">Oct, 2020</time>
+                        </div>
+
+                        <h3 class="h3 blog-item-title">Investigating the Effects of Display Fidelity of Popular Head-Mounted Displays on Spatial Updating and Learning in Virtual Reality</h3>
+
+                        <p class="blog-text">
+                            &#x2022; Goal: Understand how the fidelity of various head-mounted virtual reality displays can influence spatial updating performance and content learning performance.<br>
+                            &#x2022; Methods: Usability lab study, A/B testing, surveys, analytics.<br>
+                            &#x2022; Findings and Design Recommendations: High-fidelity contemporary head-mounted displays allow users to have better spatial updating and content learning 
+                            than popular lower fidelity displays.<br>  
+                        </p>
+
+                        </div>
+
+                    </a>
+                    </li>
+
+                    <li class="blog-post-item">
+                    <a href="https://www.vanderbilt.edu/vinse/docs/Geoff-Musick-Student-Poster.pdf" 
+                    target="_blank" rel="noopener noreferrer">
+
+                        <figure class="blog-banner-box">
+                        <img src="../assets/images/publication-junction.png" alt="junction" loading="lazy">
+                        </figure>
+
+                        <div class="blog-content">
+
+                        <div class="blog-meta">
+                            <p class="blog-category">Vanderbilt University</p>
+
+                            <span class="dot"></span>
+
+                            <time datetime="2011">2011</time>
+                        </div>
+
+                        <h3 class="h3 blog-item-title">Creating a junction between single layer graphene and single layer MoS2</h3>
+
+                        <p class="blog-text">
+                            
+                        </p>
+
+                        </div>
+
+                    </a>
+                    </li>
+
+
+
+
+
+
+
+
+                </ul>
+
+                </section>
+
+            </article>
+
+
+        </div>
+    </main>
+
+    <!--
+        - custom js link
+    -->
+    <script src="../assets/js/script.js"></script>
+
+    <!--
+        - ionicon link
+    -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

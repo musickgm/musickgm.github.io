@@ -23,6 +23,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+
+
+
 </head>
 
 <body>
@@ -48,7 +52,7 @@
         <div class="info-content">
           <h1 class="name" title="Geoff Musick">Geoff Musick</h1>
 
-          <p class="title">Researcher and Developer</p>
+          <p class="title">Research, Development, <br> and Design</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
@@ -193,32 +197,58 @@
       <nav class="navbar">
 
         <ul class="navbar-list">
-
+    
           <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
+            <button class="navbar-link active" onclick="window.location.href = './index.html';">About</button>
           </li>
-
+          
+          <!--
+          <li class="navbar-item">
+            <button class="navbar-link" onclick="window.location.href = 'html/resume.html';">Resume</button>
+          </li>
+          -->
+    
+          <li class="navbar-item">
+            <button class="navbar-link" onclick="window.location.href = 'html/research.html';">Research</button>
+          </li>
+    
+          <li class="navbar-item">
+            <button class="navbar-link" onclick="window.location.href = 'html/development.html';">Development</button>
+          </li>
+    
+          <li class="navbar-item">
+            <button class="navbar-link" onclick="window.location.href = 'html/design.html';">Design</button>
+          </li>
+          
+          <!--
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Resume</button>
           </li>
-
+          
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Research Portfolio</button>
+            <button class="navbar-link" data-nav-link>Research</button>
           </li>
-
+    
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Dev. Portfolio</button>
+            <button class="navbar-link" data-nav-link>Development</button>
           </li>
-
-
-<!--
+    
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Design</button>
+          </li>
+          -->
+    
+    
+    <!--
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Contact</button>
           </li>
--->
+    -->
         </ul>
-
+    
       </nav>
+
+
 
 
 
@@ -266,7 +296,7 @@
           <br>
           <br>
           <p>
-            &nbsp; &nbsp; &nbsp; (Updated 11/16/2022)
+            &nbsp; &nbsp; &nbsp; (Updated 2/6/2023)
           </p>
           
         </section>
@@ -313,16 +343,19 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Development for Research</h4>
+                <h4 class="h4 service-item-title">Development</h4>
 
                 <p class="service-item-text">
                   I utilize my development skills to make prototypes and tools
-                   to accelerate research project timelines.
+                   to accelerate research project timelines. I have experience 
+                   working on many projects with two available on all major
+                   app stores.
                 </p>
               </div>
 
             </li>
 
+            <!--
             <li class="service-item">
 
               <div class="service-icon-box">
@@ -330,7 +363,7 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Educational Video Game Development</h4>
+                <h4 class="h4 service-item-title">Design</h4>
 
                 <p class="service-item-text">
                   I have experience working on many projects with two available
@@ -339,6 +372,25 @@
               </div>
 
             </li>
+            -->
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-ux.png" alt="Game icon" width="60">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Design</h4>
+
+                <p class="service-item-text">
+                  I have experience researching and designing user experiences including 
+                  recommender systems, video games, VR, mobile apps, and websites.
+                </p>
+              </div>
+
+            </li>
+
 
             <li class="service-item">
 
@@ -364,152 +416,7 @@
         </section>
 
 
-        <!--
-          - testimonials
-        -->
 
-        <section class="testimonials">
-<!--
-          <h3 class="h3 testimonials-title">Testimonials</h3>
-
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials modal
-        -->
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
-              </div>
-
-            </div>
-
-          </section>
-
-        </div>
 
 
         <!--
@@ -553,1208 +460,6 @@
 
       </article>
 
-
-
-
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="resume">
-
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="briefcase-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Work Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Clemson University &#8212 UX Researcher (THINKER Fellow)</h4>
-
-              <span>2019 — Present</span>
-
-              <p class="timeline-text">
-                <!--Research involves user experience, teamwork recommender systems, and human autonomy interaction. 
-                Teaching assistantship responsibilities involve teaching scrum and the agile process.-->
-                &#x2022; Generated deep user insights and impacted UX recommendations by initiating and executing impactful research plans.<br>
-                &#x2022; Created and outlined design recommendations to improve user experience using participant data (qualitative and quantitative). 
-                Accomplished this through  identifying gaps and user pain points.<br>
-                &#x2022; Collaborated with industry partners, technicians, and managers  to ensure design recommendations met the needs of all stakeholders and customers.<br>   
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Osmosis Games &#8212 Founder/Developer</h4>
-
-              <span>2017 — Present</span>
-
-              <p class="timeline-text">
-                <!-- Founder and developer for Osmosis Games, an educational video game company. See more at the <a href="https://osmosisgames.org"  style="display: inline"
-                target="_blank" rel="noopener noreferrer">Osmosis Games</a> website.-->
-                &#x2022; Planned and developed educational video games that leverage engaging scenarios to teach students physics at their own pace.<br>
-                &#x2022; Published two successful games that are available on all major app stores and downloaded across the globe. See more at the <a href="https://osmosisgames.org"  style="display: inline"
-                target="_blank" rel="noopener noreferrer">Osmosis Games</a> website.<br>
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Lipscomb Academy &#8212 Teacher/Coach</h4>
-
-              <span>2014-2017</span>
-
-              <p class="timeline-text">
-                <!--High school Physics, Chemistry, and AP Biology teacher. 
-                Additionally served as the head coach for the high school cross country teams.-->
-                &#x2022; Prioritized a growth mindset with students by leading an initiative to utilize assessment retakes. <br>
-                &#x2022; Played a pivotal role in the science department's goals of incorporating backwards design lesson plans which also emphasized lab skills and scientific inquiry.<br>
-
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="briefcase-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Project Lead Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title"></h4>
-
-              <span>2019 — Present</span>
-
-              <p class="timeline-text">
-                Project lead on 10+ research projects. Led teams of researchers to derive insights from quantitative and qualitative data, furthering research goals for my 
-                dissertation as well as research aims for the lab as a whole.  
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title"></h4>
-
-              <span>2021</span>
-
-              <p class="timeline-text">
-                Led a team of researchers and engineers in the research and development of a collaborative human-robot manufacturing workstation. 
-                This project was in collaboration with Bosch Rexroth and was part of a larger $2.9 million NSF grant.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title"></h4>
-
-              <span>2020</span>
-
-              <p class="timeline-text">
-                Lead qualitative researcher on sub-area 1.2 of the Virtual Prototyping of Autonomy-Enabled Ground Systems (VIPR-GS) 
-                project (<a href="https://cecas.clemson.edu/VIPR-GS/"  style="display: inline"
-                target="_blank" rel="noopener noreferrer">website</a>). VIPR-GS is an $18 million government funded U.S. Army/Clemson project.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title"></h4>
-
-              <span>2019 - 2020</span>
-
-              <p class="timeline-text">
-                Scrum master for 10+ senior team projects each semester as a TA. Responsibilities included leading teams through the Agile process. 
-                Many of these teams collaborated with actual industry partners where I actively ensured results were successful and on time to meet the needs of stakeholders.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Education</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Clemson University</h4>
-
-              <span>2019 — Present</span>
-
-              <p class="timeline-text">
-                PhD, Human-Centered Computing
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Lipscomb University</h4>
-
-              <span>2014 — 2016</span>
-
-              <p class="timeline-text">
-                M. Ed &#8212 Instructional Practice
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Lipscomb University</h4>
-
-              <span>2009 — 2013</span>
-
-              <p class="timeline-text">
-                BS &#8212 Biochemistry
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="skill">
-
-          <h3 class="h3 skills-title">My skills - Research</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Research (Qualitative & Quantitative)</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Statistical Methods of Analysis (T-Test, ANOVA, Regression, Path Analysis, Etc.)</h5>
-                <data value="85">85%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 85%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Interviews (Thematic Analysis)</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Survey Studies</h5>
-                <data value="85">85%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 85%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Programming Languages (R, Python)</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Technical Writing</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-        <section class="skill">
-
-          <h3 class="h3 skills-title">My skills - Development and Design</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Project Management</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Programming Languages (C#, C, C++, Python)</h5>
-                <data value="60">60%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 60%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Wireframing</h5>
-                <data value="40">40%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 40%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Development Tools (Unity, Unreal Engine, TensorFlow, Django)</h5>
-                <data value="50">50%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
-              </div>
-              
-              </li>
-              <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Graphics Editing (Gimp)</h5>
-                <data value="60">60%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 60%;"></div>
-              </div>
-              
-            </li>
-
-         
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Office 365</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-            
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-      <!--
-        - #BLOG
-      -->
-
-      <article class="blog" data-page="research portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Research <br> Portfolio</h2>
-        </header>
-        <section class="about-text">
-          <p>
-            For more information, visit my <a href="https://scholar.google.com/citations?user=qq-8OKMAAAAJ&hl=en" style="display: inline"
-            target="_blank" rel="noopener noreferrer">Google Scholar</a> profile.
-          </p>
-        <p>
-          To request access to papers, visit my <a href="https://www.researchgate.net/profile/Geoff-Musick" style="display: inline"
-          target="_blank" rel="noopener noreferrer">Research Gate</a> profile.        
-        </p>
-
-      </section>
-
-        <section class="blog-posts">
-
-          <ul class="blog-posts-list">
-
-            <li class="blog-post-item">
-              
-              <!--
-                <a  style="display: inline"
-                    target="_blank" rel="noopener noreferrer">
-                href= "./assets/files/Dissertation_Geoff.pdf"
-              -->
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/publication-diss.png" alt="diss" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Clemson University Dissertation</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2021-10-06">Nov 14, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Developing and Facilitating Temporary Team Mental Models Through an Information-Sharing Recommender System</h3>
-
-                  <p class="blog-text">
-                    &#x2022; Goal: Determine the role of spatial awareness in team cognition development for different human-agent and human-human team compositions.<br>
-                    &#x2022; Methods, 4 Studies: (1) qualitative Surveys (content analysis and thematic analysis) and field study; 
-                    (2) semi-structured interviews, surveys, A/B testing, and field study; 
-                    (3) analytics and survey; and (4) A/B testing, analytics, and survey <br>
-                    &#x2022; Findings and Design Recommendations: (1) recommendations for the type of information to use; 
-                    (2) recommendations on presentation - avoid using anonymity and use better explanations; 
-                    (3) provided directions for user-tailored privacy and factors to consider when creating that model; and
-                    (4) recommendations for the type of explanation to provide and when to provide it to promote disclosure, reduce privacy concerns, and increase trust and satisfaction.<br>
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-
-            <li class="blog-post-item">
-              <a href="https://doi.org/10.1145/3555099" 
-              target="_blank" rel="noopener noreferrer">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/publication-see.png" alt="see" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">CSCW</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2021-10-06">Nov 11, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">I See You: Examining the Role of Spatial Information in Human-Agent Teams</h3>
-
-                  <p class="blog-text">
-                    &#x2022; Goal: Determine the role of spatial awareness in team cognition development for different human-agent and human-human team compositions.<br>
-                    &#x2022; Methods: 2x3 factorial design completed between subjects. Remote user study with quantitative and qualitative measures (analytics, A/B testing, surveys).<br>
-                    &#x2022; Findings and Design Recommendations: Human-agent teams had better team mental model similarity when spatial awareness was high
-                    rather than low, while human-only teams experienced the reverse trend. High spatial awareness jump-started team cognition development, fostered more accurate shared mental
-                    models, enhanced the explainability of the agent, and helped the iterative development of team cognition over time.<br>
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="https://dl.acm.org/doi/pdf/10.1145/3474678?casa_token=K6xLPRm7csoAAAAA:677lJ-UvFYnD6yTY-Wqki2rXZvhqx90np1s7SKGdI5d9PvJyWX3eeaMY1jMTGYvmJFBunnzErF_BDQ" 
-              target="_blank" rel="noopener noreferrer">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/publication-gaming.png" alt="gaming" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">CHI PLAY</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2021-10-06">Oct 6, 2021</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Gaming as Family Time: Digital Game Co-play in Modern Parent-Child Relationships</h3>
-
-                  <p class="blog-text">
-                    &#x2022; Goal: Determine how co-playing digital games affords and impacts parent-child relationships.<br>
-                    &#x2022; Methods: Remote semi-structured interviews with parents followed by thematic analysis.<br>
-                    &#x2022; Findings and Design Recommendations: (1) the importance of encouraging conversations both in and after gameplay and (2) promoting co-viewing to strengthen
-                    connections through shared interests.<br>
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="https://www.sciencedirect.com/science/article/pii/S0747563221001758?casa_token=7E0hrj4lmDwAAAAA:zWgVAyNOaQi22q_6NxH8sdED9VMbLJk1AwKQ9XMjwIeuruqsHSD8un7pI6EsHI_L6F765jvrHYo" 
-              target="_blank" rel="noopener noreferrer">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/publication-happens.png" alt="what happens" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Computers in Human Behavior</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2021-09-01">Sept 1, 2021</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">What Happens When Humans Believe Their Teammate is an AI? An Investigation into Humans Teaming with Autonomy</h3>
-
-                  <p class="blog-text">
-                    &#x2022; Goal: Understand how the perceived composition of a team (how many humans and how many agents on the team) affects sentiments toward teammates, 
-                    team process, cognitive states, and the emergence of a system of team cogntiion.<br>
-                    &#x2022; Methods: User study that involved 46 teams working together on an online platform with a "Wizard of Oz" methodology followed by semi-structured focus group interviews.<br>
-                    &#x2022; Findings and Design Recommendations: Multi-agent human-agent teams were impaired because of some social cognitive processes involved in the perception of
-                    autonomous agent as teammates. This study advanced models of team development and the emergence of team cognition.<br>                   
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="https://dl.acm.org/doi/pdf/10.1145/3449123?casa_token=50pVOPOe6isAAAAA:deA0eCLkcmqddo5rnvsr3OWowhVVWhAHF5ZGqk2qryHhV34s1OwpR6uHzxZZLTviA0x21-aQMOFSuA" 
-              target="_blank" rel="noopener noreferrer">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/publication-leveling.png" alt="leveling" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">CSCW</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2021-04-22">Apr 22, 2021</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Leveling Up Teamwork in Esports: Understanding Team Cognition in a Dynamic Virtual Environment</h3>
-
-                  <p class="blog-text">
-                    &#x2022; Goal: Understand how team cognition is perceived, defined, developed, and facilitated in an esports teaming environment.<br>
-                    &#x2022; Methods: Remote and in-person semi-structured interviews with esports players followed by thematic analysis.<br>
-                    &#x2022; Design Recommendations: (1) use pre-game lobbies and "matchmaking" to establish teammate understanding; 
-                    (2) use focused communication to avoid distractions within chaotic environments; and
-                    (3) leverage review tools to assist teammates in developing a shared mental model.<br>    
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="https://dl.acm.org/doi/pdf/10.1145/3432945?casa_token=IrPOakWKLvQAAAAA:N-hOFFpmZd8fZpF6Ytclplr15SNnKK7MWLbvwdNUDDdZz7JOCM91ZAJ40ECavQIOw-oizvzFrcv-Sw" 
-              target="_blank" rel="noopener noreferrer">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/publication-ideal.png" alt="ideal human" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">CSCW</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2021-01-05">Jan 5, 2021</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">"An Ideal Human": Expectations of AI Teammates in Human-AI Teaming</h3>
-
-                  <p class="blog-text">
-                    &#x2022; Goal: Understand how users perceive and what they expect from AI teammates in human-AI teamming.<br>
-                    &#x2022; Methods: Remote and in-person semi-structured interviews with esports players, thematic analysis, and surveys.<br>
-                    &#x2022; Findings and Design Recommendations: (1) AI should be taken into account as a subject in collaborative-activity design; 
-                    (2) designers may take advantage of AI's innate abilities in human-AI teaming design when considering aspects such as roles, tasks, or goals; and 
-                    (3) designers should create special team activities or mechanics to facilitate the development of a mutual understanding between AIs and human teammates.<br>  
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="https://journals.sagepub.com/doi/pdf/10.1177/1071181320641315?casa_token=pMTIwxmVmnkAAAAA:rbjK2zw34iHyjM2w0vb25iQqmOKaqzcG_nLE8S_CSeBVWMgUvTt_7SiWeMiLIdJBbZXKWMV8nmUk0Q" 
-              target="_blank" rel="noopener noreferrer">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/publication-instruction.png" alt="differentiated instruction" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Proceedings of HFES</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2020-12">Dec, 2020</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Differentiated Instruction further Realized through Teacher-Agent Teaming</h3>
-
-                  <p class="blog-text">
-                    &#x2022; Goal: Create a conceptual model for how differentiated instruction could be supported in teacher-agent teaming.<br>
-                    &#x2022; Methods: Literature review to create a conceptual model.<br>
-                    &#x2022; Result: Conceptual model to support the design of agents for teacher-agent teaming for differentiated instruction.<br> 
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-
-            <li class="blog-post-item">
-              <a href="https://link.springer.com/chapter/10.1007/978-3-030-64556-4_52" 
-              target="_blank" rel="noopener noreferrer">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/publication-fidelity.png" alt="display fidelity" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">ISVC</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2020-10">Oct, 2020</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Investigating the Effects of Display Fidelity of Popular Head-Mounted Displays on Spatial Updating and Learning in Virtual Reality</h3>
-
-                  <p class="blog-text">
-                    &#x2022; Goal: Understand how the fidelity of various head-mounted virtual reality displays can influence spatial updating performance and content learning performance.<br>
-                    &#x2022; Methods: Usability lab study, A/B testing, surveys, analytics.<br>
-                    &#x2022; Findings and Design Recommendations: High-fidelity contemporary head-mounted displays allow users to have better spatial updating and content learning 
-                    than popular lower fidelity displays.<br>  
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="https://www.vanderbilt.edu/vinse/docs/Geoff-Musick-Student-Poster.pdf" 
-              target="_blank" rel="noopener noreferrer">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/publication-junction.png" alt="junction" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Vanderbilt University</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2011">2011</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Creating a junction between single layer graphene and single layer MoS2</h3>
-
-                  <p class="blog-text">
-                    
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-
-
-
-
-
-
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="dev. portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Development <br> Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Research Development</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Educational Development</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Mini Projects</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Research Development</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Educational Development</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Mini Projects</button>
-              </li>
-
-            </ul>
-
-          </div>
-
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="research development">
-              <a href="https://youtu.be/uOaIkSxpP9w" target="_blank" rel="noopener noreferrer">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/portfolio-bsd-hand.png" alt="bsd hand" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Box Sliding Door - Hand Gesture</h3>
-
-                <p class="project-category">Research Development</p>
-
-              </a>
-                <p class="timeline-text">
-                    An unpublished class VR research project to investigate 
-                    the user experience of grabbing an object with VR 
-                    hand tracking (Leap Motion). See more:  
-                    <a href="./assets/files/Clicking_Versus_Grabbing.pdf" style="display: inline"
-                    target="_blank" rel="noopener noreferrer">Download Paper</a>
-                </p> 
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="research development">
-              <a href="https://youtu.be/97fgpXqNqXQ" target="_blank" rel="noopener noreferrer">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/portfolio-bsd-controller.png" alt="bsd controller" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Box Sliding Door - Controller</h3>
-
-                <p class="project-category">Research Development</p>
-
-              </a>
-                <p class="timeline-text">
-                    An unpublished class VR research project to investigate 
-                    the user experience of grabbing an object with a VR 
-                    controller. See more:  
-                    <a href="./assets/files/Clicking_Versus_Grabbing.pdf" style="display: inline"
-                    target="_blank" rel="noopener noreferrer">Download Paper</a>
-                </p>  
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="educational development">
-              <a href="https://youtu.be/eYTcnu1xNnk" target="_blank" rel="noopener noreferrer">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/portfolio-phys1.png" alt="phys 1" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Phys 1</h3>
-
-                <p class="project-category">Educational Development</p>
-
-
-              </a>
-                <p class="timeline-text">
-                    An educational video game I created to teach students
-                    about physics - kinematics. See more at: <a href="https://osmosisgames.org" style="display: inline"
-                    target="_blank" rel="noopener noreferrer">Osmosis Games</a>
-                </p>     
-
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="educational development">
-              <a href="https://youtu.be/wWl9o0m47iw" target="_blank" rel="noopener noreferrer">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/portfolio-phys2.png" alt="phys 2" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Phys 2</h3>
-
-                <p class="project-category">Educational Development</p>
-
-              </a>
-                <p class="timeline-text">
-                    An educational video game I created to teach students
-                    about physics - kinematics. See more at: <a href="https://osmosisgames.org" style="display: inline"
-                    target="_blank" rel="noopener noreferrer">Osmosis Games</a>
-                </p>  
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="research development">
-              <a href="https://youtu.be/wI2LYLU_i64" target="_blank" rel="noopener noreferrer">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/portfolio-vrfe.png" alt="vrfe" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Virtual Reality Field Experience</h3>
-
-                <p class="project-category">Research Development</p>
-
-              </a>
-                <p class="timeline-text">
-                    This VR simulation was the result of a collaboration with 
-                    the geology department. This project aimed at teaching
-                    students geology in a virtual environment modeled after
-                    the Grand Canyon using lidar data. This project resulted in
-                    published papers: <a href="https://par.nsf.gov/servlets/purl/10251950" 
-                    target="_blank" rel="noopener noreferrer">Conference Paper</a> <a href="https://www.proquest.com/docview/2412115271?pq-origsite=gscholar&fromopenview=true" 
-                    target="_blank" rel="noopener noreferrer">Victoria Beth's Disertation</a>
-                </p> 
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="research development">
-              <a href="./assets/files/team_report_example.pdf" target="_blank" rel="noopener noreferrer">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/portfolio-team-report.png" alt="team report" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Team Information-Sharing Report</h3>
-
-                <p class="project-category">Research Development</p>
-
-              </a>
-                <p class="timeline-text">
-                    I developed a python script that parsed individual personality
-                    and conflict management reports from ITP metrics and created
-                    highlight team reports for team sharing. This was part of
-                    a research study which resulted in an accepted conference 
-                    paper that will soon be published. 
-                </p> 
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="research development">
-              <a href="https://youtu.be/Osk8KK7_-qk" target="_blank" rel="noopener noreferrer">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/portfolio-robot.png" alt="robot" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">UR16 Robot w/ E-Vacuum and Wrist Camera Vision</h3>
-
-                <p class="project-category">Research Development</p>
-
-              </a>
-              
-                <p class="timeline-text">
-                    As part of a collaboration between my THINKER fellowship and
-                    Bosch Rexroth, I programmed a UR16 robot to utilize grippers 
-                    (dual, magnetic, and vacuum) and a 2D vision system to 
-                    identify and pick small components for kitting.
-                    <a href="https://cecas.clemson.edu/thinker/thinker-capstone-course-students-present-projects/" 
-                    style="display: inline" target="_blank" rel="noopener noreferrer">Press Release</a>           
-                </p> 
-            </li>
-
-
-            <li class="project-item  active" data-filter-item data-category="mini projects">
-              <a href="https://youtu.be/haF1i9NT9o4" target="_blank" rel="noopener noreferrer">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/portfolio-nav-mesh.png" alt="nav mesh" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Nav Mesh</h3>
-
-                <p class="project-category">Mini Projects</p>
-
-              </a>
-
-              <p class="timeline-text">
-                This project (mini-game) was for a course assignment to make a Unity game that utilized Unity's Nav Mesh system. A full description can be found on:
-                <a href="https://github.com/musickgm/NavMesh" style="display: inline-block" class="social-link" target="_blank" rel="noopener noreferrer">
-                  <ion-icon name="logo-github"></ion-icon>
-                </a>
-            </p> 
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="mini projects">
-              <a href="https://youtu.be/vLP-WcI2UUQ" target="_blank" rel="noopener noreferrer">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/portfolio-maze.png" alt="maze" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Maze Game</h3>
-
-                <p class="project-category">Mini Projects</p>
-
-              </a>
-
-              <p class="timeline-text">
-                This project (mini-game) was for a course assignment to make a 3D Unity game with a maze and third-person controller. A full description can be found on:
-                <a href="https://github.com/musickgm/Maze-Game" class="social-link" style="display: inline-block" target="_blank" rel="noopener noreferrer">
-                  <ion-icon name="logo-github"></ion-icon>
-                </a>
-            </p> 
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="mini projects">
-              <a href="https://youtu.be/etsBCXLGHhk" target="_blank" rel="noopener noreferrer">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/portfolio-automotive.png" alt="automotive" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">AutoMotive</h3>
-
-                <p class="project-category">Mini Projects</p>
-
-              </a>
-              
-                <p class="timeline-text">
-                    This was a mini-game created for a course project. It 
-                    involved walking around a manufacturing space to create
-                    program loops for other robots to efficiently assemble
-                    cars.
-                </p> 
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="mini projects">
-              <a href="https://youtu.be/JE4k9OA7Xjo" target="_blank" rel="noopener noreferrer">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/portfolio-crane.png" alt="crane" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Crane Game</h3>
-
-                <p class="project-category">Mini Projects</p>
-
-              </a>
-
-              <p class="timeline-text">
-                This project (mini-game) was for a course assignment to make a Unity game that involved a crane. A full description can be found on:
-                <a href="https://github.com/musickgm/Crane" style="display: inline-block" class="social-link" target="_blank" rel="noopener noreferrer">
-                  <ion-icon name="logo-github"></ion-icon>
-                </a>
-                
-            </p> 
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="mini projects">
-              <a href="https://youtu.be/J2gWxj7mf5Y" target="_blank" rel="noopener noreferrer">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/portfolio-football.png" alt="football" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Football Game</h3>
-
-                <p class="project-category">Mini Projects</p>
-
-              </a>
-
-              <p class="timeline-text">
-                This project (mini-game) was for a course assignment to make a Unity game that involved kicking a field goal. A full description can be found on:
-                <a href="https://github.com/musickgm/Football-Game" style="display: inline-block" class="social-link" target="_blank" rel="noopener noreferrer">
-                  <ion-icon name="logo-github"></ion-icon>
-                </a>
-            </p> 
-            </li>
-
-
-
-            <li class="project-item  active" data-filter-item data-category="mini projects">
-              <a href="https://youtu.be/BBRu7T2FCtw" target="_blank" rel="noopener noreferrer">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/portfolio-productivity.png" alt="productivity-analysis" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Productivity Analysis</h3>
-
-                <p class="project-category">Mini Projects</p>
-
-              </a>
-
-              <p class="timeline-text">
-                Part of a course project, I made a tool in Unity to track productivity (e.g., what applications are being used and for how long). A full description can be found on:
-                <a href="https://github.com/musickgm/Productivity-Analysis" style="display: inline-block" class="social-link" target="_blank" rel="noopener noreferrer">
-                  <ion-icon name="logo-github"></ion-icon>
-                </a>
-            </p> 
-            </li>
-
-
-
-            <li class="project-item  active" data-filter-item data-category="mini projects">
-              <a href="https://youtu.be/URi3slM86Z8" target="_blank" rel="noopener noreferrer">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/portfolio-django.png" alt="django" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Lab Website - Project Organization</h3>
-
-                <p class="project-category">Mini Projects</p>
-
-              </a>
-
-              <p class="timeline-text">
-                As part of TRACE Camp, I created a website to organize lab members and research projects. This involved using python, HTML, CSS, and Django and included both
-                front and back-end development. TRACE Camp info:
-                <a href="https://tracecamp.com/" style="display: inline-block"
-                target="_blank" rel="noopener noreferrer">TRACE Camp Website</a>           
-            </p> 
-            </p> 
-            </li>
-
-          </ul>
-          
-        </section>
-
-      </article>
-
-
-
-
-
-
-
-
-
-
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-<!--
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
-
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
-
-        </section>
--->
-      </article>
 
     </div>
 

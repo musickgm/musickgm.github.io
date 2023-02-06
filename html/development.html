@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geoff Musick</title>
+  
+    <!--
+      - favicon
+    -->
+    <link rel="shortcut icon" href="../assets/images/logo-geoff.png" type="image/x-icon">
+  
+    <!--
+      - custom css link
+    -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+  
+    <!--
+      - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  </head>
+
+<body>
+    <main>
+
+        <!--
+            - #SIDEBAR
+        -->
+
+        <aside class="sidebar" data-sidebar>
+
+            <div class="sidebar-info">
+    
+            <figure class="avatar-box">
+                <img src="../assets/images/geoff_profile_boston_alpha.png" alt="Geoff Musick" width="80">
+            </figure>
+    
+            <div class="info-content">
+                <h1 class="name" title="Geoff Musick">Geoff Musick</h1>
+    
+                <p class="title">Research, Development, <br> and Design</p>
+            </div>
+    
+            <button class="info_more-btn" data-sidebar-btn>
+                <span>Show Contacts</span>
+    
+                <ion-icon name="chevron-down"></ion-icon>
+            </button>
+    
+            </div>
+    
+            <div class="sidebar-info_more">
+    
+            <div class="separator"></div>
+    
+            <ul class="contacts-list">
+    
+                <li class="contact-item">
+    
+                <div class="icon-box">
+                    <ion-icon name="mail-outline"></ion-icon>
+                </div>
+    
+                <div class="contact-info">
+                    <p class="contact-title">Email</p>
+    
+                    <a href="mailto:musick.geoff@gmail.com" class="contact-link">musick.geoff@gmail.com</a>
+                </div>
+    
+                </li>
+                <!--
+                <li class="contact-item">
+    
+                <div class="icon-box">
+                    <ion-icon name="phone-portrait-outline"></ion-icon>
+                </div>
+    
+                <div class="contact-info">
+                    <p class="contact-title">Phone</p>
+    
+                    <a href="tel:+16154800656" class="contact-link">+1 (615) 480-0656</a>
+                </div>
+    
+                </li>
+    
+                
+                <li class="contact-item">
+    
+                <div class="icon-box">
+                    <ion-icon name="calendar-outline"></ion-icon>
+                </div>
+    
+                <div class="contact-info">
+                    <p class="contact-title">Birthday</p>
+    
+                    <time datetime="1990-04-16">April 16, 1990</time>
+                </div>
+    
+                </li>-->
+    
+                <li class="contact-item">
+    
+                <div class="icon-box">
+                    <ion-icon name="location-outline"></ion-icon>
+                </div>
+    
+                <div class="contact-info">
+                    <p class="contact-title">Location</p>
+    
+                    <address>Colorado Springs, Colorado, USA</address>
+                </div>
+    
+                </li>
+    
+            </ul>
+    
+            <div class="separator"></div>
+    
+            <ul class="social-list">
+                
+                <li class="social-item">
+                <a href="https://www.linkedin.com/in/geoff-musick/" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+                </li>
+            
+                
+            <li class="social-item">
+                <a href="https://github.com/musickgm" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <ion-icon name="logo-github"></ion-icon>
+                </a>
+                </li>
+                
+                <!--
+                <li class="social-item">
+                <a href="https://www.facebook.com/musickgm" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+                </li>
+                -->
+    
+                <!--
+                <li class="social-item">
+                <a href="https://twitter.com/GeoffMusick" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+                </li>
+                -->
+    
+                <li class="social-item">
+                <a href="https://scholar.google.com/citations?user=qq-8OKMAAAAJ&hl=en" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <ion-icon name="school-outline"></ion-icon>
+                </a>
+                </li>
+    
+                <!--
+                <li class="social-item">
+                <a href="https://www.instagram.com/geoffmusick/" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                </li>
+                -->
+            </ul>
+    
+            </div>
+    
+        </aside>
+
+
+        <div class="main-content">
+
+            <!--
+                - #NAVBAR
+            -->
+
+            <nav class="navbar">
+
+                <ul class="navbar-list">
+
+                <li class="navbar-item">
+                    <button class="navbar-link" onclick="window.location.href = '../index.html';">About</button>
+                </li>
+                
+                <!--
+                <li class="navbar-item">
+                    <button class="navbar-link" onclick="window.location.href = 'html/resume.html';">Resume</button>
+                </li>
+                -->
+            
+                <li class="navbar-item">
+                    <button class="navbar-link" onclick="window.location.href = 'research.html';">Research</button>
+                </li>
+            
+                <li class="navbar-item">
+                    <button class="navbar-link active" onclick="window.location.href = 'development.html';">Development</button>
+                </li>
+            
+                <li class="navbar-item">
+                    <button class="navbar-link" onclick="window.location.href = 'design.html';">Design</button>
+                </li>
+                
+                <!--
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Resume</button>
+                </li>
+                
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Research</button>
+                </li>
+            
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Development</button>
+                </li>
+            
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Design</button>
+                </li>
+                -->
+            
+            
+            <!--
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Contact</button>
+                </li>
+            -->
+                </ul>
+            
+            </nav>
+
+            <!--
+                - #PORTFOLIO [Development]
+            -->
+
+            <article class="portfolio active" data-page="development">
+
+                <header>
+                <h2 class="h2 article-title">Development</h2>
+                </header>
+
+                <section class="projects">
+
+                <ul class="filter-list">
+
+                    <li class="filter-item">
+                    <button class="active" data-filter-btn>All</button>
+                    </li>
+
+                    <li class="filter-item">
+                    <button data-filter-btn>Research Development</button>
+                    </li>
+
+                    <li class="filter-item">
+                    <button data-filter-btn>Educational Development</button>
+                    </li>
+
+                    <li class="filter-item">
+                    <button data-filter-btn>Mini Projects</button>
+                    </li>
+
+                </ul>
+
+                <div class="filter-select-box">
+
+                    <button class="filter-select" data-select>
+
+                    <div class="select-value" data-selecct-value>Select category</div>
+
+                    <div class="select-icon">
+                        <ion-icon name="chevron-down"></ion-icon>
+                    </div>
+
+                    </button>
+
+                    <ul class="select-list">
+
+                    <li class="select-item">
+                        <button data-select-item>All</button>
+                    </li>
+
+                    <li class="select-item">
+                        <button data-select-item>Research Development</button>
+                    </li>
+
+                    <li class="select-item">
+                        <button data-select-item>Educational Development</button>
+                    </li>
+
+                    <li class="select-item">
+                        <button data-select-item>Mini Projects</button>
+                    </li>
+
+                    </ul>
+
+                </div>
+
+                <ul class="project-list">
+
+                    <li class="project-item  active" data-filter-item data-category="research development">
+                    <a href="https://youtu.be/uOaIkSxpP9w" target="_blank" rel="noopener noreferrer">
+
+                        <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+
+                        <img src="../assets/images/portfolio-bsd-hand.png" alt="bsd hand" loading="lazy">
+                        </figure>
+
+                        <h3 class="project-title">Box Sliding Door - Hand Gesture</h3>
+
+                        <p class="project-category">Research Development</p>
+
+                    </a>
+                        <p class="timeline-text">
+                            An unpublished class VR research project to investigate 
+                            the user experience of grabbing an object with VR 
+                            hand tracking (Leap Motion). See more:  
+                            <a href="../assets/files/Clicking_Versus_Grabbing.pdf" style="display: inline"
+                            target="_blank" rel="noopener noreferrer">Download Paper</a>
+                        </p> 
+                    </li>
+
+                    <li class="project-item  active" data-filter-item data-category="research development">
+                    <a href="https://youtu.be/97fgpXqNqXQ" target="_blank" rel="noopener noreferrer">
+
+                        <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+
+                        <img src="../assets/images/portfolio-bsd-controller.png" alt="bsd controller" loading="lazy">
+                        </figure>
+
+                        <h3 class="project-title">Box Sliding Door - Controller</h3>
+
+                        <p class="project-category">Research Development</p>
+
+                    </a>
+                        <p class="timeline-text">
+                            An unpublished class VR research project to investigate 
+                            the user experience of grabbing an object with a VR 
+                            controller. See more:  
+                            <a href="../assets/files/Clicking_Versus_Grabbing.pdf" style="display: inline"
+                            target="_blank" rel="noopener noreferrer">Download Paper</a>
+                        </p>  
+                    </li>
+
+                    <li class="project-item  active" data-filter-item data-category="educational development">
+                    <a href="https://youtu.be/eYTcnu1xNnk" target="_blank" rel="noopener noreferrer">
+
+                        <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+
+                        <img src="../assets/images/portfolio-phys1.png" alt="phys 1" loading="lazy">
+                        </figure>
+
+                        <h3 class="project-title">Phys 1</h3>
+
+                        <p class="project-category">Educational Development</p>
+
+
+                    </a>
+                        <p class="timeline-text">
+                            An educational video game I created to teach students
+                            about physics - kinematics. See more at: <a href="https://osmosisgames.org" style="display: inline"
+                            target="_blank" rel="noopener noreferrer">Osmosis Games</a>
+                        </p>     
+
+                    </li>
+
+                    <li class="project-item  active" data-filter-item data-category="educational development">
+                    <a href="https://youtu.be/wWl9o0m47iw" target="_blank" rel="noopener noreferrer">
+
+                        <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+
+                        <img src="../assets/images/portfolio-phys2.png" alt="phys 2" loading="lazy">
+                        </figure>
+
+                        <h3 class="project-title">Phys 2</h3>
+
+                        <p class="project-category">Educational Development</p>
+
+                    </a>
+                        <p class="timeline-text">
+                            An educational video game I created to teach students
+                            about physics - kinematics. See more at: <a href="https://osmosisgames.org" style="display: inline"
+                            target="_blank" rel="noopener noreferrer">Osmosis Games</a>
+                        </p>  
+                    </li>
+
+                    <li class="project-item  active" data-filter-item data-category="research development">
+                    <a href="https://youtu.be/wI2LYLU_i64" target="_blank" rel="noopener noreferrer">
+
+                        <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+
+                        <img src="../assets/images/portfolio-vrfe.png" alt="vrfe" loading="lazy">
+                        </figure>
+
+                        <h3 class="project-title">Virtual Reality Field Experience</h3>
+
+                        <p class="project-category">Research Development</p>
+
+                    </a>
+                        <p class="timeline-text">
+                            This VR simulation was the result of a collaboration with 
+                            the geology department. This project aimed at teaching
+                            students geology in a virtual environment modeled after
+                            the Grand Canyon using lidar data. This project resulted in
+                            published papers: <a href="https://par.nsf.gov/servlets/purl/10251950" 
+                            target="_blank" rel="noopener noreferrer">Conference Paper</a> <a href="https://www.proquest.com/docview/2412115271?pq-origsite=gscholar&fromopenview=true" 
+                            target="_blank" rel="noopener noreferrer">Victoria Beth's Disertation</a>
+                        </p> 
+                    </li>
+
+                    <li class="project-item  active" data-filter-item data-category="research development">
+                    <a href="../assets/files/team_report_example.pdf" target="_blank" rel="noopener noreferrer">
+
+                        <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+
+                        <img src="../assets/images/portfolio-team-report.png" alt="team report" loading="lazy">
+                        </figure>
+
+                        <h3 class="project-title">Team Information-Sharing Report</h3>
+
+                        <p class="project-category">Research Development</p>
+
+                    </a>
+                        <p class="timeline-text">
+                            I developed a python script that parsed individual personality
+                            and conflict management reports from ITP metrics and created
+                            highlight team reports for team sharing. This was part of
+                            a research study which resulted in an accepted conference 
+                            paper that will soon be published. 
+                        </p> 
+                    </li>
+
+                    <li class="project-item  active" data-filter-item data-category="research development">
+                    <a href="https://youtu.be/Osk8KK7_-qk" target="_blank" rel="noopener noreferrer">
+
+                        <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+
+                        <img src="../assets/images/portfolio-robot.png" alt="robot" loading="lazy">
+                        </figure>
+
+                        <h3 class="project-title">UR16 Robot w/ E-Vacuum and Wrist Camera Vision</h3>
+
+                        <p class="project-category">Research Development</p>
+
+                    </a>
+                    
+                        <p class="timeline-text">
+                            As part of a collaboration between my THINKER fellowship and
+                            Bosch Rexroth, I programmed a UR16 robot to utilize grippers 
+                            (dual, magnetic, and vacuum) and a 2D vision system to 
+                            identify and pick small components for kitting.
+                            <a href="https://cecas.clemson.edu/thinker/thinker-capstone-course-students-present-projects/" 
+                            style="display: inline" target="_blank" rel="noopener noreferrer">Press Release</a>           
+                        </p> 
+                    </li>
+
+
+                    <li class="project-item  active" data-filter-item data-category="mini projects">
+                    <a href="https://youtu.be/haF1i9NT9o4" target="_blank" rel="noopener noreferrer">
+
+                        <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+
+                        <img src="../assets/images/portfolio-nav-mesh.png" alt="nav mesh" loading="lazy">
+                        </figure>
+
+                        <h3 class="project-title">Nav Mesh</h3>
+
+                        <p class="project-category">Mini Projects</p>
+
+                    </a>
+
+                    <p class="timeline-text">
+                        This project (mini-game) was for a course assignment to make a Unity game that utilized Unity's Nav Mesh system. A full description can be found on:
+                        <a href="https://github.com/musickgm/NavMesh" style="display: inline-block" class="social-link" target="_blank" rel="noopener noreferrer">
+                        <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </p> 
+                    </li>
+
+                    <li class="project-item  active" data-filter-item data-category="mini projects">
+                    <a href="https://youtu.be/vLP-WcI2UUQ" target="_blank" rel="noopener noreferrer">
+
+                        <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+
+                        <img src="../assets/images/portfolio-maze.png" alt="maze" loading="lazy">
+                        </figure>
+
+                        <h3 class="project-title">Maze Game</h3>
+
+                        <p class="project-category">Mini Projects</p>
+
+                    </a>
+
+                    <p class="timeline-text">
+                        This project (mini-game) was for a course assignment to make a 3D Unity game with a maze and third-person controller. A full description can be found on:
+                        <a href="https://github.com/musickgm/Maze-Game" class="social-link" style="display: inline-block" target="_blank" rel="noopener noreferrer">
+                        <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </p> 
+                    </li>
+
+                    <li class="project-item  active" data-filter-item data-category="mini projects">
+                    <a href="https://youtu.be/etsBCXLGHhk" target="_blank" rel="noopener noreferrer">
+
+                        <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+
+                        <img src="../assets/images/portfolio-automotive.png" alt="automotive" loading="lazy">
+                        </figure>
+
+                        <h3 class="project-title">AutoMotive</h3>
+
+                        <p class="project-category">Mini Projects</p>
+
+                    </a>
+                    
+                        <p class="timeline-text">
+                            This was a mini-game created for a course project. It 
+                            involved walking around a manufacturing space to create
+                            program loops for other robots to efficiently assemble
+                            cars.
+                        </p> 
+                    </li>
+
+                    <li class="project-item  active" data-filter-item data-category="mini projects">
+                    <a href="https://youtu.be/JE4k9OA7Xjo" target="_blank" rel="noopener noreferrer">
+
+                        <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+
+                        <img src="../assets/images/portfolio-crane.png" alt="crane" loading="lazy">
+                        </figure>
+
+                        <h3 class="project-title">Crane Game</h3>
+
+                        <p class="project-category">Mini Projects</p>
+
+                    </a>
+
+                    <p class="timeline-text">
+                        This project (mini-game) was for a course assignment to make a Unity game that involved a crane. A full description can be found on:
+                        <a href="https://github.com/musickgm/Crane" style="display: inline-block" class="social-link" target="_blank" rel="noopener noreferrer">
+                        <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                        
+                    </p> 
+                    </li>
+
+                    <li class="project-item  active" data-filter-item data-category="mini projects">
+                    <a href="https://youtu.be/J2gWxj7mf5Y" target="_blank" rel="noopener noreferrer">
+
+                        <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+
+                        <img src="../assets/images/portfolio-football.png" alt="football" loading="lazy">
+                        </figure>
+
+                        <h3 class="project-title">Football Game</h3>
+
+                        <p class="project-category">Mini Projects</p>
+
+                    </a>
+
+                    <p class="timeline-text">
+                        This project (mini-game) was for a course assignment to make a Unity game that involved kicking a field goal. A full description can be found on:
+                        <a href="https://github.com/musickgm/Football-Game" style="display: inline-block" class="social-link" target="_blank" rel="noopener noreferrer">
+                        <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </p> 
+                    </li>
+
+
+
+                    <li class="project-item  active" data-filter-item data-category="mini projects">
+                    <a href="https://youtu.be/BBRu7T2FCtw" target="_blank" rel="noopener noreferrer">
+
+                        <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+
+                        <img src="../assets/images/portfolio-productivity.png" alt="productivity-analysis" loading="lazy">
+                        </figure>
+
+                        <h3 class="project-title">Productivity Analysis</h3>
+
+                        <p class="project-category">Mini Projects</p>
+
+                    </a>
+
+                    <p class="timeline-text">
+                        Part of a course project, I made a tool in Unity to track productivity (e.g., what applications are being used and for how long). A full description can be found on:
+                        <a href="https://github.com/musickgm/Productivity-Analysis" style="display: inline-block" class="social-link" target="_blank" rel="noopener noreferrer">
+                        <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </p> 
+                    </li>
+
+
+
+                    <li class="project-item  active" data-filter-item data-category="mini projects">
+                    <a href="https://youtu.be/URi3slM86Z8" target="_blank" rel="noopener noreferrer">
+
+                        <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+
+                        <img src="../assets/images/portfolio-django.png" alt="django" loading="lazy">
+                        </figure>
+
+                        <h3 class="project-title">Lab Website - Project Organization</h3>
+
+                        <p class="project-category">Mini Projects</p>
+
+                    </a>
+
+                    <p class="timeline-text">
+                        As part of TRACE Camp, I created a website to organize lab members and research projects. This involved using python, HTML, CSS, and Django and included both
+                        front and back-end development. TRACE Camp info:
+                        <a href="https://tracecamp.com/" style="display: inline-block"
+                        target="_blank" rel="noopener noreferrer">TRACE Camp Website</a>           
+                    </p> 
+                    </p> 
+                    </li>
+
+                </ul>
+                
+                </section>
+
+            </article>
+
+
+        </div>
+    </main>
+
+    <!--
+        - custom js link
+    -->
+    <script src="../assets/js/script.js"></script>
+
+    <!--
+        - ionicon link
+    -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

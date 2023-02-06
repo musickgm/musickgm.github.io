@@ -256,6 +256,7 @@ article.active {
 .h2,
 .h3,
 .h4,
+.h6
 .h5 {
   color: var(--white-2);
   text-transform: capitalize;
@@ -270,6 +271,11 @@ article.active {
 .h5 {
   font-size: var(--fs-7);
   font-weight: var(--fw-500);
+}
+
+.h6 {
+  font-size: var(--fs-1);
+  text-align: center;
 }
 
 .article-title {
@@ -556,6 +562,13 @@ a:active {
 }
 
 .about-text p { margin-bottom: 15px; }
+
+
+
+
+
+
+
 
 
 
@@ -1083,7 +1096,22 @@ a:active {
 }
 
 
-
+/*-----------------------------------*\
+  #Case Study
+\*-----------------------------------*/
+.persona-img img{
+  border-radius: 12px;
+  object-fit: contain;
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 70%;
+  max-height: 400px;
+  overflow: hidden;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 /*-----------------------------------*\
@@ -1131,6 +1159,22 @@ a:active {
 }
 
 .blog-post-item > a:hover .blog-banner-box img { transform: scale(1.1); }
+
+.blog-banner-box-2 {
+  width: 100%;
+  height: 400px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.blog-banner-box-2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: var(--transition-1);
+}
+
+.blog-post-item > a:hover .blog-banner-box-2 img { transform: scale(1.1); }
 
 .blog-content { padding: 15px; }
 
@@ -1281,7 +1325,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 
-
 /*-----------------------------------*\
   #RESPONSIVE
 \*-----------------------------------*/
@@ -1306,6 +1349,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .project-img,
   .blog-banner-box { height: auto; }
+  .blog-banner-box-2 { height: auto; }
 
 }
 
@@ -1446,6 +1490,8 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .about-text { margin-bottom: 40px; }
 
+
+
   /* service */
 
   .service-item {
@@ -1462,6 +1508,26 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .service-content-box { text-align: left; }
+
+  /* study */
+
+  .study-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 18px;
+    padding: 30px;
+  }
+
+  .study-icon-box {
+    margin-bottom: 0;
+    margin-top: 5px;
+  }
+
+  .study-content-box { text-align: left; 
+    column-count: 2;
+  }
+
 
   /* testimonials */
 
@@ -1564,6 +1630,8 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .project-img, .blog-banner-box { border-radius: 16px; }
+  .project-img, .blog-banner-box-2 { border-radius: 16px; }
+
 
   .blog-posts-list { gap: 30px; }
 
@@ -1813,6 +1881,8 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .blog-banner-box { height: 230px; }
+  .blog-banner-box-2 { height: 430px; }
+
 
 }
 
